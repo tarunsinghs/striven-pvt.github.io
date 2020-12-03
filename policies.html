@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background-color: lightgrey;
+        }
+        .collapsible {
+        background-color: #f4511e;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: #e64a19;
+      }
+      
+      .collapsible:after {
+        content: '\002B';
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+      }
+      
+      .active:after {
+        content: "\2212";
+      }
+      
+      .content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #f1f1f1;
+      }
+      h1{
+          color:darkgreen;
+          font-family:Arial, Helvetica, sans-serif;
+      }
+    </style>
+    
+</head>
+<body>
+    <h1>PRIVACY POLICY</h1>
+    <button class="collapsible">POLICY</button>
+    <div class="content">
+    <p> We value your trust. In order to honour that trust, STRIVEN adheres to ethical standards in gathering, using, and safeguarding any information you provide.
+       <p>This privacy policy governs your use of the application 'Striven', www. Striven.in ('Website') and the other associated products, websites and services managed by the Company. </p> 
+    </p><p>Please read this privacy policy ('Policy') carefully before using the Application, Website, our services and products, along with the Terms of Use ('ToU') provided on the Website.
+        <p>Your use of the Website or services in connection with Striven, will be monitored by striven.
+        If you do not agree with the terms of this Policy, do not use the Website, Application our products or avail any of our Services.</p>
+    </div>
+    <button class="collapsible">SECURITY</button>
+    <div class="content">
+    <p> We are concerned about safeguarding the confidentiality of your Information.</p><p> We provide physical, electronic, and procedural safeguards to protect Information we process and maintain. For example, we limit access to this Information to authorized employees only who need to know that information in order to operate, develop or improve our Application/Services/products/Website.</p><p> Please be aware that, although we endeavor to provide reasonable security for information we process and maintain, no security system can prevent all potential security breaches.
+    </p>
+</div>
+<button class="collapsible">SENSITIVE PERSONAL INFORMATION</button>
+<div class="content">
+<p>There may be circumstances where we collect sensitive personal information, that you chose to share with us, pertaining to any medical conditions or disabilities you may be affected by.</p><p> This information would only be relevant if you feel it might affect your ability to study on one of our courses. </p><p>These would be to ensure we meet any accessibility requirements you may have, and to ensure equal opportunities for all our students.</p>
+</div>
+<button class="collapsible">CONTACT INFORMATION</button>
+<div class="content">
+<p>If you have any questions about this policy, please email us at <a href="mailto:striven.privateltd@gmail.com">Striven.privateltd@gmail.com</a></p>
+</div>
+<button class="collapsible">FEEDBACK</button>
+<div class="content">
+    <p>Any feedback You provide with respect to the Application shall be deemed to be non-confidential. The Application shall be free to use such information on an unrestricted basis. Further, by submitting the feedback, You represent and warrant that</p>    
+    <ol>
+        <li>Your feedback does not contain confidential or proprietary information of You or of third parties;</li>
+        <li>the Company is not under any obligation of confidentiality, express or implied, with respect to the feedback;</li>
+        <li>the Application may have something similar to the feedback already under consideration or in development; and</li>
+        <li>You are not entitled to any compensation or reimbursement of any kind from the Company for the feedback under any circumstances, unless specified.</li>
+    </ol>
+    <p>
+        Under no circumstances shall the Company be held responsible in any manner for any content provided by other users even such content is offensive, hurtful or offensive. Please exercise caution while accessing the Application.
+    </p>
+</div>
+<button class="collapsible">CUSTOMER CARE</button>
+<div class="content">
+    <p>We make all best endeavors to provide You with a pleasant experience. In the unlikely event that You face any issues, please contact us at <a href="mailto:striven.privateltd@gmail.com">Striven.privateltd@gmail.com</a>.</p>
+     
+</div>
+
+
+   <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+ 
+</body>
+</html>
