@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/hero.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,8 +25,47 @@
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+              <img src="images/logo.png" alt="Logo">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#home">
+                    Home
+                  </a>
+                <a class="navbar-item" href="#about-me">
+                    About Me
+                 </a>
+                <a class="navbar-item" href="#services">
+                    Services
+                 </a>
+                 <a class="navbar-item" href="#my-work">
+                    Our Courses
+                </a>
+                
+                <a class="navbar-item" href="contact.html">
+                    Contact Us
+                  </a>
+                <a class="navbar-item" href="policies.html">
+                    Our Policies
+                  </a>
+              <a class="navbar-item">
+                Login
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <!-- Begin Preloader -->
-    
 
     <div class="preloader-wrapper">
         <div class="preloader">
@@ -37,84 +86,15 @@
     <div class="header-wrapper" id="home">
         <!-- Begin Hero -->
         <section class="hero is-large">
-            <!-- Begin Mobile Nav -->
-            <nav class="navbar is-transparent is-hidden-desktop">
-                <!-- Begin Burger Menu -->
-                <div class="navbar-brand">
-                    <div class="navbar-burger burger" data-target="mobile-nav">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <!-- End Burger Menu -->
-                <div id="mobile-nav" class="navbar-menu">
-                    <div class="navbar-end">
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#home">
-                  Home
-                </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#about-me">
-                  About Me
-                </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#services">
-                  Services
-                </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#my-work">
-                  Our Courses
-                </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#contact">
-                  Contact
-                </a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <!-- End Mobile Nav -->
+            
             <!-- Begin Hero Content-->
             <div class="hero-body">
                 <div class="container has-text-centered">
              
                     <h2 class="title">Striven</h2>
-                    <h1 class="subtitle profession">Striving for Excellence</h1>
+                    <h1 class="subtitle profession">Striving for Your Excellence</h1>
                 </div>
             </div>
-            <!-- End Hero Content-->
-            <!-- Begin Hero Menu -->
-            <div class="hero-foot ">
-                <div class="hero-foot--wrapper">
-                    <div class="columns">
-                        <div class="column is-12 hero-menu-desktop has-text-centered">
-                            <ul>
-                                <li class="is-active">
-                                    <a href="#home">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#about-me">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="#services">Services</a>
-                                </li>
-                                <li>
-                                    <a href="#my-work">Our Courses</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Hero Menu -->
         </section>
         <!-- End Hero -->
     </div>
@@ -176,16 +156,37 @@
     </div>
     </div>
     <!-- End About Me Content -->
-    <div class="section-dark resume">
+    <div class="section-dark about-me">
         <div class="container">
-            <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
-                <div class="column is-12 about-me">
-                  
-                    <iframe  width="100%" height="250" src="https://www.youtube.com/embed/G2wA1YRQ4s4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="columns is-multiline">
+                <div class="column is-6 has-vertically-aligned-content" data-aos="fade-left" >
+                    <iframe  width="50%" height="250" src="https://www.youtube.com/embed/G2wA1YRQ4s4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                </div>
+                <div class="column is-6 right-image " data-aos="fade-right">
+                    <p class="is-larger">
+                        <h1 class="title has-text-centered section-title">What do we do?</h1>
+                        At Striven, we persevere to live up to our reputation as the world's most valuable and loved Ed-tech company. We believe in revolutionizing education, building a generation of active learners and in that mission, we learn, we grow, we have immense fun and live to express what is dear to us - make everyone fall in love with learning!
+                    
+                    </p>
+                    
+                    
                 </div>
             </div>
         </div>
     </div>
+            
+            <!--
+            <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
+                <div class="column is-12 about-me">
+                  
+                    <iframe  width="50%" height="250" src="https://www.youtube.com/embed/G2wA1YRQ4s4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    At Striven, we persevere to live up to our reputation as the world's most valuable and loved Ed-tech company. We believe in revolutionizing education, building a generation of active learners and in that mission, we learn, we grow, we have immense fun and live to express what is dear to us - make everyone fall in love with learning!
+                    
+                </div>
+            </div>
+    -->
+        
     <!-- Begin Services Content -->
     <div class="section-color services" id="services">
         <div class="container">
@@ -194,8 +195,8 @@
                     <h1 class="title has-text-centered section-title">Services</h1>
 
                     <h2 class="subtitle">
-                        We provide various range of training and bootcamps to inculcate realtime skills and qualities.
-                    </h2>
+                        <h1 class="center" >  We provide various range of training and bootcamps to inculcate realtime skills and qualities.
+                    </h1></h2>
                     <br />
                 </div>
                 <div class="columns is-12">
@@ -248,39 +249,7 @@
             </div>
         </div>
     </div>
-    <!-- End Services Content -->
-    <!-- Begin Skills Content -->
-   <!--<div class="section-light skills" id="skills">
-        <div class="container">
-            <div class="columns is-multiline">
-                <div class="column is-12 about-me">
-                    <h1 class="title has-text-centered section-title">Skills</h1>
-                </div>
-                <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
-                    <h1>Creativity</h1>
-                    <progress class="progress" value="95" max="100">95%</progress>
-                    <h1>Communication</h1>
-                    <progress class="progress" value="80" max="100">80%</progress>
-                    <h1>Interpersonal</h1>
-                    <progress class="progress" value="85" max="100">85%</progress>
-                    <h1>Problem-Solving</h1>
-                    <progress class="progress" value="90" max="100">90%</progress>
-                </div>
-                <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
-                    <h1>Adaptability</h1>
-                    <progress class="progress" value="85" max="100">85%</progress>
-                    <h1>Ethics</h1>
-                    <progress class="progress" value="95" max="100">95%</progress>
-                    <h1>Self-Confidence</h1>
-                    <progress class="progress" value="90" max="100">90%</progress>
-                    <h1>Leadearship</h1>
-                    <progress class="progress" value="80" max="100">80%</progress>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!-- End Skills Content -->
-    <!-- Begin Work Content -->
+   
     <div class="section-dark my-work" id="my-work">
         <div class="container">
             <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
@@ -288,49 +257,49 @@
                     <h1 class="title has-text-centered section-title">Our Courses</h1>
                 </div>
                 <div class="column is-3">
-                    <a href="work/program.html">
+                    <a href="images/passion curriculam-converted.pdf"target="_blank">
                         <figure class="image is-2by1 work-item" style="background-image: url('images/program.jpg');"></figure>
                     </a>
                     <p>Programming</p>
                 </div>
                 <div class="column is-3">
-                    <a href="work/aptitude.html">
+                    <a href="images/Aptitude curriculam.pdf"target="_blank">
                         <figure class="image is-2by1 work-item" style="background-image: url('images/aptitude.jpg');"></figure>
                     </a>
                     <p>Aptitude</p>
                 </div>
                 <div class="column is-3">
-                    <a href="work/communication.html">
+                    <a href="images/Communication Curriculam.pdf"target="_blank">
                         <figure class="image is-2by1 work-item" style="background-image: url('images/communicate.jpg');"></figure>
                     </a>
                     <p>communication</p>
                 </div>
                 <div class="column is-3">
-                    <a href="work/design.html">
+                    <a href="images/Designing curriculam.pdf"target="_blank">
                         <figure class="image is-2by1 work-item" style="background-image: url('images/design.jpg');"></figure>
                     </a>
                     <p>Designing</p>
                 </div>
                 <div class="column is-3">
-                    <a href="work/careercounselling.html">
+                    <a href="counselling.html"target="_blank">
                         <figure class="image is-2by1 work-item" style="background-image: url('images/career.jpg');"></figure>
                     </a>
                     <p>Career Counselling</p>
                 </div>
                 <div class="column is-3">
-                    <a href="work/eventmgmt.html">
+                    <a href="images/passion curriculam-converted.pdf" target="_blank">
                         <figure class="image is-2by1 work-item" style="background-image: url('images/eventmgmt.jpg');"></figure>
                     </a>
                     <p>Event Management</p>
                 </div>
                 <div class="column is-3">
-                    <a href="work/personalgrooming.html">
+                    <a href="images/Personal grooming.pdf" target="_blank">
                         <figure class="image is-2by1 work-item" style="background-image: url('images/personal.jpg');"></figure>
                     </a>
                     <p>Personal Grooming</p>
                 </div>
                 <div class="column is-3">
-                    <a href="work/passion.html">
+                    <a href="images/passion curriculam-converted.pdf"target="_blank">
                         <figure class="image is-2by1 work-item" style="background-image: url('images/passion.jpg');"></figure>
                     </a>
                     <p>Passion Guidance</p>
@@ -343,30 +312,62 @@
     
     <!-- End Contact Content -->
     </div>
+    <footer class="page-footer font-small cyan darken-3" style="background-color: rgb(20, 20, 59);">
+
+        <!-- Footer Elements -->
+        <div class="container">
+      
+          <!-- Grid row-->
+          <div class="row">
+      <div class="center">
+        <div class="footer-copyright text-center py-3">
+            <div class="center">
+          <a href="https://Striven.in/"> Learn at Corporate Standards</a>
+        </div>
+            <!-- Grid column -->
+            <div class="col-md-12 py-5">
+              <div class="mb-5 flex-center">
+      
+                <!-- Facebook -->
+                <a class="fb-ic" href="https://www.facebook.com/striven.edu" target="_blank">
+                  <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!-- Twitter -->
+                
+                <!-- Google +-->
+                <a class="gplus-ic" href="contact.html">
+                  <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Linkedin -->
+                <a class="li-ic" href="https://www.linkedin.com/in/striven-pvt-b604511b6">
+                  <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Instagram-->
+                <a class="ins-ic" href="https://instagram.com/striven_edu">
+                  <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                
+              </div>
+            </div>
+            <!-- Grid column -->
+        </div>
+          </div>
+          <!-- Grid row-->
+      
+        </div>
+        <!-- Footer Elements -->
+      
+        <!-- Copyright -->
+        
+            <div class="center">
+          <a href="policies.html"> Our Policies</a>
+        </div>
+        
+        <!-- Copyright -->
+      
+      </footer>
     <!-- End Main Content -->
 
-    <!-- Begin Footer -->
-    <footer align="center" styles="background: lightblue">
-
-        <p>
-            <h3 styles="font-size: 1.5rem;"><a href="contact.html">Contact us</a></h3>
-            <nav>
-                <a href="https://youtu.be/G2wA1YRQ4s4" aria-label="Facebook"><i class="fab fa-youtube"></i></a>
-                  &nbsp&nbsp
-                <a href="mailto:striven.privateltd@gmail.com" aria-label="Email"><i class='fa fa-envelope fa-lg'></i></a>
-                  &nbsp&nbsp
-                <a href="https://instagram.com/Striven_edu" aria-label="Instagram"><i class='fab fa-instagram fa-lg'></i></a>
-                    &nbsp&nbsp
-                <a href="https://www.facebook.com/striven.edu" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-              </nav>
-        </p>
-   
-    
-        
-    </footer>
-    <!-- End Footer -->
-
-    <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="showcase.js"></script>
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
