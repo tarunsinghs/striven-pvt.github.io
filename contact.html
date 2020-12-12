@@ -124,24 +124,46 @@ body {margin:0;font-family:Arial}
 </style>
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-        <img src="images/logo.svg" alt="logo"  height="65" width="65" align="left">
-        <a href="index.html">Home</a>
-        <a href="#">Contact</a>
-        <a href="#">Blogs</a>
-        <!--<div class="dropdown">
-          <button class="dropbtn">Dropdown 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+    <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+              <img src="images/logo.png" alt="Logo">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
           </div>
-        </div>--> 
-        <a href="aboout">About</a>
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-      </div>
+          <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#home">
+                    Home
+                  </a>
+                <a class="navbar-item" href="#about-me">
+                    About Me
+                 </a>
+                <a class="navbar-item" href="#services">
+                    Services
+                 </a>
+                 <a class="navbar-item" href="#my-work">
+                    Our Courses
+                </a>
+                
+                <a class="navbar-item" href="contact.html">
+                    Contact Us
+                  </a>
+                <a class="navbar-item" href="policies.html">
+                    Our Policies
+                  </a>
+              <a class="navbar-item">
+                Login
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
    
     <div class="section-light contact" id="contact">
         <div class="container">
