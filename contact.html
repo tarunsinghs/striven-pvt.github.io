@@ -124,46 +124,44 @@ body {margin:0;font-family:Arial}
 </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="#">
-              <img src="images/logo.png" alt="Logo">
-            </a>
-            <span class="navbar-burger burger" data-target="navbarMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-end">
-                <a class="navbar-item" href="#home">
-                    Home
-                  </a>
-                <a class="navbar-item" href="#about-me">
-                    About Me
-                 </a>
-                <a class="navbar-item" href="#services">
-                    Services
-                 </a>
-                 <a class="navbar-item" href="#my-work">
-                    Our Courses
-                </a>
-                
-                <a class="navbar-item" href="contact.html">
-                    Contact Us
-                  </a>
-                <a class="navbar-item" href="policies.html">
-                    Our Policies
-                  </a>
-              <a class="navbar-item">
-                Login
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <img src="images/logo.png" alt="Logo">
+        </a>
+        <span class="navbar-burger burger" data-target="navbarMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-end">
+            <a class="navbar-item" href="index.html">
+                Home
               </a>
-            </div>
-          </div>
+            
+             <a class="navbar-item" href="index.html">
+                Our Courses
+            </a>
+            
+            <a class="navbar-item" href="contact.html">
+                Contact Us
+              </a>
+            <a class="navbar-item" href="policies.html">
+                Our Policies
+              </a>
+          <a class="navbar-item">
+            Login
+          </a>
         </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
    
     <div class="section-light contact" id="contact">
         <div class="container">
@@ -212,7 +210,7 @@ body {margin:0;font-family:Arial}
             </div>
         </div>
     </div><br>
-    
+  
     <footer class="page-footer font-small cyan darken-3"style="background-color: rgb(20, 20, 59);>
 
       <!-- Footer Elements -->
@@ -264,7 +262,7 @@ body {margin:0;font-family:Arial}
         <a href="contact.html"> Contact Us</a>
       </div>
       
-      <!-- Copyright -->
+      <!-- Copyright --></div>
     
     </footer>
   <!-- End Main Content -->
@@ -278,6 +276,15 @@ body {margin:0;font-family:Arial}
           easing: "ease-out",
           duration: 800,
       })
-  </script>
+  </script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="showcase.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: "ease-out",
+            duration: 800,
+        })
+    </script>
 </body>
 </html>
